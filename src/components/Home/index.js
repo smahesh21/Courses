@@ -55,7 +55,7 @@ class Home extends Component {
 
           return (
             <Link to={`/courses/${id}`} className="links">
-              <li key={eachCourse.id} className="course-item-container">
+              <li key={id} className="course-item-container">
                 <img src={logoUrl} className="logo" alt={name} />
                 <p className="name">{name}</p>
               </li>
