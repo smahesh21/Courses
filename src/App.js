@@ -6,6 +6,7 @@ import NotFound from './components/NotFound'
 import './App.css'
 
 // Replace your code here
+//I had replacethe code
 const App = () => (
   <>
     <Switch>
